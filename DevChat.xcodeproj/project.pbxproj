@@ -12,6 +12,8 @@
 		E32ACF561F7125BB00DCDDCE /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32ACF551F7125BB00DCDDCE /* RoundButton.swift */; };
 		E353AB621F80A1770084A80E /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E353AB611F80A1770084A80E /* AuthService.swift */; };
 		E353AB641F80F7F60084A80E /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E353AB631F80F7F60084A80E /* DataService.swift */; };
+		E353AB661F811B8B0084A80E /* UsersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E353AB651F811B8B0084A80E /* UsersVC.swift */; };
+		E353AB681F811D230084A80E /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E353AB671F811D230084A80E /* UserCell.swift */; };
 		E3D0B8501F4DC77B00453A6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D0B84F1F4DC77B00453A6A /* AppDelegate.swift */; };
 		E3D0B8521F4DC77B00453A6A /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D0B8511F4DC77B00453A6A /* CameraVC.swift */; };
 		E3D0B8551F4DC77B00453A6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3D0B8531F4DC77B00453A6A /* Main.storyboard */; };
@@ -31,6 +33,8 @@
 		E32ACF551F7125BB00DCDDCE /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		E353AB611F80A1770084A80E /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		E353AB631F80F7F60084A80E /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		E353AB651F811B8B0084A80E /* UsersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersVC.swift; sourceTree = "<group>"; };
+		E353AB671F811D230084A80E /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		E3D0B84C1F4DC77B00453A6A /* DevChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3D0B84F1F4DC77B00453A6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3D0B8511F4DC77B00453A6A /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
@@ -127,6 +131,7 @@
 			children = (
 				E3D0B8511F4DC77B00453A6A /* CameraVC.swift */,
 				E32329791F71757E004EB31E /* LoginVC.swift */,
+				E353AB651F811B8B0084A80E /* UsersVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -137,6 +142,7 @@
 				E3D0B8651F4DCB7300453A6A /* AVCamPreviewView.swift */,
 				E32ACF531F710C5500DCDDCE /* RoundTextField.swift */,
 				E32ACF551F7125BB00DCDDCE /* RoundButton.swift */,
+				E353AB671F811D230084A80E /* UserCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -273,6 +279,8 @@
 				E3D0B8501F4DC77B00453A6A /* AppDelegate.swift in Sources */,
 				E3D0B8661F4DCB7300453A6A /* AVCamPreviewView.swift in Sources */,
 				E353AB621F80A1770084A80E /* AuthService.swift in Sources */,
+				E353AB661F811B8B0084A80E /* UsersVC.swift in Sources */,
+				E353AB681F811D230084A80E /* UserCell.swift in Sources */,
 				E353AB641F80F7F60084A80E /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,7 +354,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -397,7 +405,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
